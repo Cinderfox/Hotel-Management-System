@@ -1,3 +1,25 @@
+import os
+from random import randint
+
+rooms = {}
+customers = {}
+reviews = {}
+
+def input_room():
+    n = int(input("Enter the number of rooms to be entered: "))
+    for _ in range(n):
+        room = input("Enter the room number: ")
+        size = input("Enter the room size: ")
+        status = input("Enter the room availability (AVAILABLE/BOOKED): ")
+        cost = float(input("Enter the room cost in dlr/night: "))
+        rooms[room] = {
+            'size': size,
+            'status': status,
+            'cost': cost
+        }
+    print("Rooms have been successfully entered.\n")
+    
+
 def main_menu():
     print("""
                                         .........................................
