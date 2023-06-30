@@ -18,7 +18,44 @@ def input_room():
             'cost': cost
         }
     print("Rooms have been successfully entered.\n")
-    
+
+
+def edit_room():
+    room_edit = input("Enter the room number to be edited: ")
+    if room_edit in rooms:
+        while True:
+            print("\n1. Edit size")
+            print("2. Edit status")
+            print("3. Edit cost")
+            print("4. Exit edit")
+            ch = input("Enter your choice: ")
+            
+            if ch == '1':
+                new_size = input("Enter new size: ")
+                rooms[room_edit]['size'] = new_size
+                print("Successfully edited.\n")
+            elif ch == '2':
+                print("1. AVAILABLE")
+                print("2. BOOKED")
+                E = input("Enter your choice: ")
+                if E == '1':
+                    rooms[room_edit]['status'] = 'AVAILABLE'
+                    print("Successfully edited.\n")
+                elif E == '2':
+                    rooms[room_edit]['status'] = 'BOOKED'
+                    print("Successfully edited.\n")
+                else:
+                    print("Invalid choice.\n")
+            elif ch == '3':
+                new_cost = float(input("Enter new cost in dhs/night: "))
+                rooms[room_edit]['cost'] = new_cost
+                print("Successfully edited.\n")
+            elif ch == '4':
+                break
+            else:
+                print("Invalid choice.\n")
+    else:
+        print("Invalid room.\n")
 
 def main_menu():
     print("""
