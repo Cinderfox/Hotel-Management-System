@@ -18,6 +18,14 @@ def input_room():
             'cost': cost
         }
     print("Rooms have been successfully entered.\n")
+    
+def delete_room():
+    room_delete = input("Enter the room number to be deleted: ")
+    if room_delete in rooms:
+        del rooms[room_delete]
+        print("Room has been deleted.\n")
+    else:
+        print("Room not found.\n")
 
 
 def edit_room():
