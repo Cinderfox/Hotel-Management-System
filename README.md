@@ -44,8 +44,8 @@ Here's a visual representation of the program's logic:
 ## How to Run
 
 1. Ensure you have Python installed on your system.
-2. Copy and paste the provided code into a Python file (e.g., `hotel_management.py`).
-3. Run the Python script using the command `python hotel_management.py`.
+2. Copy and paste the provided code into a Python file (e.g., `main.py`).
+3. Run the Python script using the command `python main.py`.
 
 ## Notes
 
