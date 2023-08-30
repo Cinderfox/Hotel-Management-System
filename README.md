@@ -51,9 +51,3 @@ Here's a visual representation of the program's logic:
 
 - This program demonstrates basic hotel management functions and is intended for educational purposes.
 - Keep the password "S3V3NS3AS" handy to access the admin options.
-
-## Contributor
-
-This hotel management system was developed by [Your Name].
-
-For questions or feedback, please contact [your.email@example.com].
