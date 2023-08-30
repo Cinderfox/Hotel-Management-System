@@ -1,2 +1,2 @@
 # Hotel-Management-System
-Python Project for a basic hotel management system woah what??
+Python Project for a basic hotel management system 
