@@ -35,11 +35,11 @@ Welcome to the Seven Seas Grand Hotel Management System! This program allows you
 
 Here's a visual representation of the program's logic:
 
-![Flowchart_1](assets\1.JPG)
-![Flowchart_2](assets\2.JPG)
-![Flowchart_3](assets\3.JPG)
-![Flowchart_4](assets\4.JPG)
-![Flowchart_5](assets\5.JPG)
+![Flowchart_1](assets/1.JPG)
+![Flowchart_2](assets/2.JPG)
+![Flowchart_3](assets/3.JPG)
+![Flowchart_4](assets/4.JPG)
+![Flowchart_5](assets/5.JPG)
 
 ## How to Run
 
